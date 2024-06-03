@@ -3,7 +3,7 @@ param location string = resourceGroup().location
 param planName string = 'app-plan-linux'
 param planTier string = 'P1v2'
 
-param webappName string = 'python-demoapp'
+param webappName string = 'python-demoapp1'
 param webappImage string = 'ghcr.io/benc-uk/python-demoapp:latest'
 param weatherKey string = ''
 param releaseInfo string = 'Released on ${utcNow('f')}'
